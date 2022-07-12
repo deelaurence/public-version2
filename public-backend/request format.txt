@@ -1,0 +1,70 @@
+#get allItems
+#  GET http://localhost:3000/items
+# Content-Type: application/json
+ 
+#get oneItem
+# GET http://localhost:3000/item/62c7751ad3ab5802c307fa37 
+
+#sortItem by price
+# GET http://localhost:3000/itemsort/?priceDB=1
+
+#sort by Quantity
+# GET http://localhost:3000/itemsort/?quantityDB=-1
+
+
+#sort by category
+# GET http://localhost:3000/item/category/pant
+
+
+
+# PUT http://localhost:3000/product/edit/62c7753dd3ab5802c307fa3c
+# Content-Type: application/json
+# authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUk9NT0tFIiwiYWRtaW5JZCI6IjYyYzc2ZmQ0ZjZkNTYzMzIwNmE1YWE0NyIsImlhdCI6MTY1NzIzNzUxOX0.JFemNIpx3PQZF7mZsVUHMqLOit_7gPzpUfWUVpCX9gY
+
+# {
+#     "ownerOfItem": "",
+#     "nameOfItem": "spotify",
+#     "descriptionOfItem": "all white",
+#     "categoryOfItem": "ha",
+#     "priceOfItem": "50",
+#     "quantityOfItem":"42"
+# }
+
+
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiUk9NT0tFIiwiYWRtaW5JZCI6IjYyYzc2ZmQ0ZjZkNTYzMzIwNmE1YWE0NyIsImlhdCI6MTY1NzIzNzUxOX0.JFemNIpx3PQZF7mZsVUHMqLOit_7gPzpUfWUVpCX9gY
+#romoke
+
+
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQVlPREVMRSIsImlhdCI6MTY1NzIzNTQ2MX0.x4FBUlVI3ZhuR84ZT17p0iEuho45bD6etnuiAZ9fwzU
+#ayodele
+
+# POST http://localhost:3000/login/admin
+# Content-Type: application/json
+# authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQVlPREVKSSIsImlhdCI6MTY1NzE4NDQ2MX0.akT9yOMNoEQ91uvsskrAJb0ewtxIF1_flrrKEMzfo8A
+
+#     {
+#     "nameFromAdmin":"brona",
+#     "emailFromAdmin":"brona@gmail.com",
+#     "passwordFromAdmin":"brona",
+#     "keyFromAdmin":"bootstrap147"
+#     }
+
+# GET http://localhost:3000/items/categorysort/hats/?priceDB=1
+# Content-Type: application/json
+
+# GET http://localhost:3000/items
+# Content-Type: application/json
+# authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im9kdW5heW8iLCJ1c2VySUQiOiI2MmM5ZjVkNzIxMzRjN2JmYTY1MDYxMjIiLCJpYXQiOjE2NTc0MDI4Mzl9.jsBA6CELoDR7rIBwmvVnzDkYG_8BLVj60fZMxAOwC98
+# authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJ1c2VySUQiOiI2MmM2ZjhjNmIwN2U4YjVhZjBkMjE3YmEiLCJpYXQiOjE2NTcyMDY5ODJ9.f7R7b7nCyng0I4a9d0LqprehwCzLDRjgX2zMZfaobDM
+
+# {
+#     "usernameFromUser":"odunayo",
+#     "emailFromUser":"laurie143pelumi@gmail.com",
+#     "phoneNumberFromUser":"0987845945",
+#     "passwordFromUser":"frank",
+#     "userRole":"user"
+
+# }
+
+# eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZyYW5rIiwidXNlcklEIjoiNjJjOWYzNTQyMTM0YzdiZmE2NTA2MTE1IiwiaWF0IjoxNjU3NDAyMTk2fQ.yBvTDYjx0ToViveCOov3GjlLOe2FZvpsfHXvLeJL6Xw
+
