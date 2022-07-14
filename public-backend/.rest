@@ -136,8 +136,8 @@ Content-Type: application/json
 
 {
     "usernameFromUser":"Alexander",
-    "emailFromUser":"mfreke.victor@gmail.com",
-    "passwordFromUser":"12345",
+    "emailFromUser":"ibkalao@yahoo.com",
+    "passwordFromUser":"ishola@2000",
     "phoneNumberFromUser":"08094368971",
     "userRole":"user"
 } 
