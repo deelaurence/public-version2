@@ -16,7 +16,7 @@ router.post("/product/new", check, create);
 router.put("/product/edit/:id", check, edit);
 router.delete("/product/delete/:id", check, deleteOne);
 //any user can perform these actions
-router.get("/item/:id", getOneItem);
+router.get("/:id", getOneItem);
 router.get("/items", getAllItems);
 router.get("/itemsort", sortItem);
 router.get("/items/category/:categ", getCategory);

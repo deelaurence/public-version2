@@ -14,7 +14,7 @@ const {
 router.get("/confirm/:token", verifyMail);
 router.post("/register", register);
 
-router.post("/login", check, login);
+router.post("/login", login);
 router.post("/:ownerid/additem", check, add);
 router.get("/:ownerid/cart", check, all);
 router.delete("/:ownerid/cart/remove", check, remove);
