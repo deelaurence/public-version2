@@ -4,8 +4,8 @@ const { register, login } = require("../controller/adminController");
 
 const { check } = require("../middleware/adminLoginMiddleware");
 
-router.post("/admin/register", register);
+router.post("/register", register);
 
-router.post("/admin/login", login);
+router.post("/login", login);
 
 module.exports = router;

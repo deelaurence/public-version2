@@ -22,9 +22,9 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //ROUTE
-app.use("/", userRoute);
-app.use("/", adminRoute);
-app.use("/", itemRoute);
+app.use("/user", userRoute);
+app.use("/admin", adminRoute);
+app.use("/i", itemRoute);
 
 //test auth with frontend
 const path = require("path");

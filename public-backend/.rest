@@ -55,9 +55,9 @@
 
 # GET http://localhost:3000/itemsort/?priceDB=-1
 # authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvaG4iLCJ1c2VySUQiOiI2MmM2ZjhjNmIwN2U4YjVhZjBkMjE3YmEiLCJpYXQiOjE2NTcyMDY5ODJ9.f7R7b7nCyng0I4a9d0LqprehwCzLDRjgX2zMZfaobDM
-GET https://kodetech.herokuapp.com/items
+# GET https://kodetech.herokuapp.com/items
 # https://kodetech.herokuapp.com/items
-Content-Type: application/json
+# Content-Type: application/json
 # authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im9kdW5heW8iLCJ1c2VySUQiOiI2MmM5ZjVkNzIxMzRjN2JmYTY1MDYxMjIiLCJpYXQiOjE2NTc0MDI4Mzl9.jsBA6CELoDR7rIBwmvVnzDkYG_8BLVj60fZMxAOwC98
 
 # {
@@ -104,15 +104,15 @@ Content-Type: application/json
 # }
 
 # ADDING PRODUCT TO CART
-POST http://localhost:3000/62cc28f8560769888fb56cdd/additem
-Content-Type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZyYW5rIiwidXNlcklEIjoiNjJjYzI4Zjg1NjA3Njk4ODhmYjU2Y2RkIiwiaWF0IjoxNjU3NTQ3MDAwfQ.hSJJ2BOb3WEIg4wRKWwIhZHS8d0lAISiNojlzwXi_V0
+# POST http://localhost:3000/62cc28f8560769888fb56cdd/additem
+# Content-Type: application/json
+# authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZyYW5rIiwidXNlcklEIjoiNjJjYzI4Zjg1NjA3Njk4ODhmYjU2Y2RkIiwiaWF0IjoxNjU3NTQ3MDAwfQ.hSJJ2BOb3WEIg4wRKWwIhZHS8d0lAISiNojlzwXi_V0
 
-{
-"productId":"62c755912dcc8d766f72a47e",
-"quantity":"5"
+# {
+# "productId":"62c755912dcc8d766f72a47e",
+# "quantity":"5"
 
-}
+# }
 
 # GET http://localhost:3000/62c8b0e83556b0414f5c2a51/cart
 # Content-Type: application/json
@@ -130,17 +130,17 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZyY
 #     "price":"20000"
 # } 
 
-# POST http://localhost:3000/register
-# Content-Type: application/json
+POST http://localhost:3000/user/register
+Content-Type: application/json
 
 
-# {
-#     "usernameFromUser":"Alexander",
-#     "emailFromUser":"ibkalao@yahoo.com",
-#     "passwordFromUser":"ishola@2000",
-#     "phoneNumberFromUser":"08094368971",
-#     "userRole":"user"
-# } 
+{
+    "usernameFromUser":"Alexander",
+    "emailFromUser":"ibkalao@yahoo.com",
+    "passwordFromUser":"ishola@2000",
+    "phoneNumberFromUser":"08094368971",
+    "userRole":"user"
+} 
 
 #eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imlkb3d1IiwiaWF0IjoxNjU3MzI0MTY0fQ.LiW1-0UekH3WlgC3xvV1lSy6I1Cs5TRq7NyTW9f0dTs
 #eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imlkb3d1IiwiaWF0IjoxNjU3MzI0MTEwfQ.tyYHjJuzMGYhVH__X6Mroyc5n3zIV9ct6PWhhwQnRfM
@@ -149,3 +149,5 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImZyY
 # eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imlkb3d1IiwiaWF0IjoxNjU3MzI1MTExfQ.uVU7ZHw5pAspDWJKJiJHE-0nrW7pHOfpLXbMdvHSTII
 # ibk
 # eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFsZXhhbmRlciIsImlhdCI6MTY1NzQwMDMxOH0.OE3p0EClGXgl4Lj_kf6DN1LB93Igimumk6_UKXZFXD8
+
+
